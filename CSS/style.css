@@ -1,0 +1,130 @@
+html{
+    background-color: rgb(245, 245, 245);
+}
+ 
+header > div.heading > h2{
+    text-align: center;
+}
+header >  div.nav > nav > ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+}
+header > div.nav > nav > ul > li{
+     padding: 15px 0px 15px;
+     background-color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: 5px;
+     font-weight: bolder;
+} 
+
+/*   Section Style   */
+img.Profile {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   min-width: 300px;
+}
+section > p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: grey;
+    margin: 30px 150px 50px 150px;
+    font-size: x-large;  
+}
+
+/*   Article Style   */
+article{
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+article > div{
+    display: flex;
+    flex-direction: column;
+}
+article > div > img.imageSize {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+article > div > h3 {
+    text-align: center;
+    font-family: 'Comfortaa', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 350;
+    padding-top: 20px;
+}
+article > div > p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: grey;
+    margin: 10px 200px 50px 200px;
+    font-size: x-large;
+}
+article > h2 {
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    font-weight: lighter;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/*   Footer Style   */
+footer > h4{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:50px;
+    padding-bottom: 20px;
+    font-size: large;
+}
+footer > p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: grey;
+    font-size: x-large;
+    margin: 10px 150px 50px 150px;
+
+}
+p.Email {
+    margin: 10px 150px 50px 150px;
+}
+footer > p.phone > a, footer > p.Email > a {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+}
+footer > div.display >label.one{
+    display: block;
+    float: left;
+    clear: right;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+footer > div.display >label.two{
+    display: block;
+    float: right;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+    footer > div.footer {
+        display: none;
+    }
+h2.portfolio{
+    text-align: center;
+}
+#MarketingPage{
+    padding-top: 30px;
+}
+
+
+
